@@ -8,9 +8,9 @@ Special thanks for these libraries and their contributors:
 '''
 import os
 import urwid
-from .music_api import YoutubePlayer
-from .ui import player_ui
-from .settings import PL_DIR
+from music_api import YoutubePlayer
+from ui import player_ui
+from settings import PL_DIR
 
 #Palette for the urwid UI
 palette = [
